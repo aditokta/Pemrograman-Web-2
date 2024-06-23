@@ -9,7 +9,7 @@ class UserSeeder extends Seeder
     public function run()
     {
         $this->db->table('users')->insert([
-            'username' => 'Aditya',
+            'username' => 'Adit',
             'email' => 'aditya.oktaviari@gmail.com',
             'password' => password_hash('123', PASSWORD_DEFAULT),
         ]);
